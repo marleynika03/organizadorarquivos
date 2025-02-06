@@ -6,11 +6,11 @@ import logging
 from datetime import datetime, timedelta
 
 # Diretórios
-pasta_downloads = os.path.expanduser(r'C:\Users\USER\Downloads')
-pasta_destino_imagem = os.path.expanduser(r'C:\Users\USER\OneDrive\Documentos\ArquivoDestinoAgendador\Imagens')
-pasta_destino_zp = os.path.expanduser(r'C:\Users\USER\OneDrive\Documentos\ArquivoDestinoAgendador\Arquivos Zipados')
-pasta_destino_docs = os.path.expanduser(r'C:\Users\USER\OneDrive\Documentos\ArquivoDestinoAgendador\Documentos')
-pasta_outros = os.path.expanduser(r'C:\Users\USER\OneDrive\Documentos\ArquivoDestinoAgendador\Outros')
+pasta_downloads = os.path.expanduser(r'>>caminhoaqui<<')
+pasta_destino_imagem = os.path.expanduser(r'>>caminhoaqui<<')
+pasta_destino_zp = os.path.expanduser(r'>>caminhoaqui<<')
+pasta_destino_docs = os.path.expanduser(r'>>caminhoaqui<<')
+pasta_outros = os.path.expanduser(r'>>caminhoaqui<<')
 
 # Configuração de logging
 log_file = os.path.expanduser(r'C:\Users\USER\OneDrive\Documentos\ArquivoDestinoAgendador\Logs\log.txt')
